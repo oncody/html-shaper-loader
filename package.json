@@ -1,0 +1,23 @@
+{
+  "name": "html-shaper-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader for html-shaper project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "fs": "latest",
+    "html-shaper": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-loader": "latest",
+    "oncody-eslint-config": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "keywords": [],
+  "author": "Cody Smith",
+  "license": "MIT"
+}
