@@ -5,16 +5,19 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: [
-    './src/index.js'
+    './index.js'
   ],
   mode: 'development',
+  node: {
+    fs: 'empty'
+  },
   module: {
     rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'eslint-loader',
-        options: Object.assign({ node: { fs: 'empty' } }, eslintConfig)
+        options: eslintConfig
       }
     ]
   },

@@ -1,4 +1,3 @@
-
 // import * as formatter from './formatter';
 const fs = require('fs');
 const htmlShaper = require('html-shaper');
